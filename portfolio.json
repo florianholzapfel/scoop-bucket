@@ -2,20 +2,7 @@
     "homepage": "http://www.portfolio-performance.info",
     "description": "A simple tool to calculate the overall performance of an investment portfolio.",
     "license": "EPL-1.0",
-    "version": "0.42.1",
-    "url": "https://github.com/microsoft/Git-Credential-Manager-for-Windows/releases/download/1.20.0/gcmw-v1.20.0.zip",
-    "hash": "523847459aef94bf45e15c08ab67c1c23b6dcb563b2cbda956c04dc491f82cdb",
     "bin": "PortfolioPerformance.exe",
-    "architecture": {
-        "64bit": {
-	    "url": "https://github.com/buchen/portfolio/releases/download/0.42.1/PortfolioPerformance-0.42.1-win32.win32.x86_64.zip",
-	    "hash": "b7a22f14a051822c997de4aa4987e7936f99d80a12b770b4c375caec43e49603"
-        },
-        "32bit": {
-	    "url": "https://github.com/buchen/portfolio/releases/download/0.42.1/PortfolioPerformance-0.42.1-win32.win32.x86.zip",
-	    "hash": "26e232138ffbf557439b5306dbbf7af65a81a5694b87f6ec829299efdda87e60"
-        }
-    },
     "extract_dir": "portfolio",
     "shortcuts": [
         ["PortfolioPerformance.exe", "Portfolio"]
@@ -23,7 +10,9 @@
     "suggest": {
         "JRE": [ "java/oraclejre8" ]
     },
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/buchen/portfolio"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
