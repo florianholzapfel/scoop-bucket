@@ -1,6 +1,7 @@
 {
     "homepage": "http://www.portfolio-performance.info",
     "description": "A simple tool to calculate the overall performance of an investment portfolio.",
+    "version": "0.48.1",
     "license": "EPL-1.0",
     "bin": "PortfolioPerformance.exe",
     "extract_dir": "portfolio",
